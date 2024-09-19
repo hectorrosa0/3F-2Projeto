@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+--cor-de-fundo: #2E073F;
+--cor-primaria: #7A1CAC;
+--cor-secundaria: #3A1078;
+--fonte: "Amaranth", sans-serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+background-color: var(--cor-de-fundo);
+color: var(--cor-primaria);
+height: 100vh;
+font-family: var(--fonte);
+
+}
