@@ -20,3 +20,33 @@ height: 100vh;
 font-family: var(--fonte);
 
 }
+header{
+background-color: var(--cor-de-fundo);
+text-align: center;
+}
+
+h1{
+color: var(--cor-primaria);
+font-size: 2rem;
+font-weight: 700;
+}
+
+nav{
+
+display: flex;
+justify-content: center;
+font-weight: 400;
+
+}
+nav a{
+text-decoration: none;
+color: var(--cor-secundaria);
+margin: 0 2rem 32rem 0;
+font-size: 1.7rem;
+}
+
+nav a:hover{
+text-decoration: underline;
+transform: scale(1.3);
+transition: transform 2s;
+}
