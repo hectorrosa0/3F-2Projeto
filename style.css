@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
---cor-de-fundo: #2E073F;
---cor-primaria: #7A1CAC;
---cor-secundaria: #3A1078;
+--cor-de-fundo: #180161;
+--cor-primaria: #4F1787;
+--cor-secundaria: #EB3678;
+--cor-de-aba: #FB773C;
 --fonte: "Amaranth", sans-serif;
 }
 
@@ -21,12 +22,12 @@ font-family: var(--fonte);
 
 }
 header{
-background-color: var(--cor-de-fundo);
+background-color: var(--cor-primaria);
 text-align: center;
 }
 
 h1{
-color: var(--cor-primaria);
+color: var(--cor-secundaria);
 font-size: 2rem;
 font-weight: 700;
 }
@@ -40,8 +41,8 @@ font-weight: 400;
 }
 nav a{
 text-decoration: none;
-color: var(--cor-secundaria);
-margin: 0 2rem 32rem 0;
+color: var(--cor-de-aba);
+margin: 0 2rem 1rem 0;
 font-size: 1.7rem;
 }
 
