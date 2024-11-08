@@ -9,9 +9,7 @@ async function visualizaDadosGlobais(){
     console.log(dados);
 
     const paragrafo = document.createElement('p')
-    // * Cria uma tag <p> que é um paragrafo (no HTML)
     paragrafo.classList.add('graficos-texto')
-    // * Cria uma classe 'graficos-texto' na tag <p>
     const container = document.getElementById('graficos-container')
     paragrafo.innerHTML = `O mundo tem <span> ${totalPessoasMundo} bilhões </span> de 
     habitantes, dos quais <span> ${totalPessoasConectadas} bilhões </span> estão conectados
